@@ -1,0 +1,6 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="login-container">
+        <at-message></at-message>
+        <at-button compid="{{$compid__13}}">授权登陆</at-button>
+    </view>
+</block>
